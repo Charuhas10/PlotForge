@@ -15,6 +15,7 @@ This is a Web Application that allows users to create interesting Movie plots wi
 
 ````bash
 git clone
+```
 
 2. In the root directory, Install the required packages and run the Web Application
 ```bash
