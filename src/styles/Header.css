@@ -1,0 +1,24 @@
+/* Header specific styles */
+#header {
+  background-color: var(--off-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3em;
+}
+
+#header > img {
+  height: 26px;
+}
+
+#header > a {
+  color: var(--deep-purple);
+  font-size: 1.5em;
+  text-decoration: none;
+  padding: 1em 0;
+}
+
+#header span {
+  font-weight: 700;
+  color: var(--dark-blue);
+}

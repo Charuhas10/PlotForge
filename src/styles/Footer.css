@@ -1,0 +1,9 @@
+/* Footer specific styles */
+
+footer {
+  background-color: var(--off-white);
+  color: var(--dark-blue);
+  padding: 0.8em;
+  font-size: 0.7em;
+  text-align: center;
+}
