@@ -9,12 +9,11 @@ This is a Web Application that allows users to create interesting Movie plots wi
 
 ## How to run
 
-<!-- give the commands also -->
-
 1. Clone the repository
 
-````bash
+```bash
 git clone
+```
 
 2. In the root directory, Install the required packages and run the Web Application
 ```bash
