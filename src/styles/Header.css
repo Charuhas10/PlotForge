@@ -4,21 +4,40 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.3em;
+  padding: 0.5em 1em;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 }
 
 #header > img {
-  height: 26px;
+  height: 40px; /* Increased for better visibility */
 }
 
 #header > a {
   color: var(--deep-purple);
-  font-size: 1.5em;
+  font-size: 1.8em; /* Slightly larger for better readability */
   text-decoration: none;
-  padding: 1em 0;
+  margin-left: 0.5em; /* Added space between logo and text */
+  display: flex; /* Aligns text with the logo vertically */
+  align-items: center;
 }
 
 #header span {
   font-weight: 700;
   color: var(--dark-blue);
+}
+
+@media screen and (max-width: 600px) {
+  #header {
+    flex-direction: column;
+    padding: 0.5em;
+  }
+
+  #header > img {
+    height: 30px; /* Smaller size for smaller screens */
+  }
+
+  #header > a {
+    font-size: 1.5em; /* Smaller font size for smaller screens */
+    margin-left: 0;
+  }
 }
